@@ -10,27 +10,29 @@ MyDataApp is an Android application that allows users to register, log in, and m
 ✨ Features
 
 🔐 User Registration
-Create an account with username, email, and password
+-> Create an account with username, email, and password
 
-Email and password validation
+-> Email and password validation
 
-Securely store credentials in SQLite
+-> Securely store credentials in SQLite
 
 🔑 User Login
-Log in with registered credentials
 
-Validate username and password
+-> Log in with registered credentials
 
-Maintain user session via SharedPreferences
+-> Validate username and password
+
+-> Maintain user session via SharedPreferences
 
 📦 Item Management
-Create: Add items with a title and description
 
-Read: View items in a RecyclerView, loaded from SQLite
+-> Create: Add items with a title and description
 
-Update: Edit existing item details
+-> Read: View items in a RecyclerView, loaded from SQLite
 
-Delete: Remove items from the list
+-> Update: Edit existing item details
+
+-> *Delete*: Remove items from the list
 
 🛠️ Technical Requirements
 💻 Development Environment
