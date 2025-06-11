@@ -87,6 +87,7 @@ MyDataApp is an Android application that allows users to register, log in, and m
 -> Button: Delete item
 
 **👤 User Stories**
+
 🔹 As a user, I want to register so that I can create an account.
 
 🔹 As a user, I want to log in so that I can access my data.
