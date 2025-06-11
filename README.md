@@ -9,14 +9,14 @@ MyDataApp is an Android application that allows users to register, log in, and m
 
 ✨ Features
 
-🔐 User Registration
+**🔐 User Registration**
 -> Create an account with username, email, and password
 
 -> Email and password validation
 
 -> Securely store credentials in SQLite
 
-🔑 User Login
+**🔑 User Login**
 
 -> Log in with registered credentials
 
@@ -24,61 +24,69 @@ MyDataApp is an Android application that allows users to register, log in, and m
 
 -> Maintain user session via SharedPreferences
 
-📦 Item Management
+**📦 Item Management**
 
--> Create: Add items with a title and description
+-> **Create**: Add items with a title and description
 
--> Read: View items in a RecyclerView, loaded from SQLite
+-> **Read**: View items in a RecyclerView, loaded from SQLite
 
--> Update: Edit existing item details
+-> **Update**: Edit existing item details
 
--> *Delete*: Remove items from the list
+-> **Delete**: Remove items from the list
 
-🛠️ Technical Requirements
+**🛠️ Technical Requirements**
+
 💻 Development Environment
-Android Studio
 
-Java
+-> Android Studio
 
-Android SDK (API level 21 or higher)
+-> Java
 
-🗃️ Database
-SQLite (Local Storage)
+-> Android SDK (API level 21 or higher)
 
-Tables:
+**🗃️ Database**
 
-users
+**SQLite (Local Storage)*
 
-items
+*Tables:*
 
-🧩 UI Components
-🔓 Login Screen
-EditText: username, password
+-> users
 
-Button: Login
+-> items
 
-TextView: Link to registration
+**🧩 UI Components**
 
-📝 Registration Screen
-EditText: username, email, password
+*🔓 Login Screen**
 
-Button: Register
+-> EditText: username, password
 
-TextView: Link to login
+-> Button: Login
 
-🏠 Main Screen
-RecyclerView: Displays items
+-> TextView: Link to registration
 
-FloatingActionButton: Add new item
+*📝 Registration Screen**
 
-📋 Item Detail Screen
-EditText: title, description
+-> EditText: username, email, password
 
-Button: Save (create/update)
+-> Button: Register
 
-Button: Delete item
+-> TextView: Link to login
 
-👤 User Stories
+*🏠 Main Screen**
+
+-> RecyclerView: Displays items
+
+-> FloatingActionButton: Add new item
+
+*📋 Item Detail Screen**
+
+-> EditText: title, description
+
+-> Button: Save (create/update)
+
+-> Button: Delete item
+
+**👤 User Stories**
 🔹 As a user, I want to register so that I can create an account.
 
 🔹 As a user, I want to log in so that I can access my data.
